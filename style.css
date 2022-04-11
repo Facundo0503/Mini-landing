@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background-minimalist.jpg);
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins";
+}
+
+.card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content{
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.418);
+    background-color: rgba(255, 255, 255, 0.904);
+    background-image: url(./images/people-minimalist.jpg);
+    background-size: 450px;
+    background-position: 400px 300px;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 700px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+    gap: 25px;
+    margin-right: 40px;
+    color: rgb(10, 10, 100);
+    cursor: pointer;
+}
+
+.nucba-icon{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: -760px;
+    margin-top: 20px;
+}
+
+.title{
+    text-align: start;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 85px;
+}
+
+.paragraph{
+    width: 300px;
+    margin-left: 85px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgb(13, 13, 134);
+}
+
+.boton{
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+#btn-switch{
+    appearance: none;
+}
+
+.lbl-switch{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: #91daec;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch:checked~ .lbl-switch{
+    background-color: #91daec;
+}
+
+.lbl-switch::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-radius: 100px;
+    top: 0px;
+    left: 80px;
+    transition: 0.3s;
+}
+
+#btn-switch:checked~ .lbl-switch::after {
+    background-color: rgb(0, 0, 0);
+    left: 0px;
+}
