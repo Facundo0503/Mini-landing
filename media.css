@@ -65,6 +65,46 @@
         width: 90%;
         height: 300px;
     }
+
+    .advantages-container{
+        width: 90%;
+        height: auto;
+    }
+
+    .benefits{
+        font-size: 13px;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .benefits p{
+        margin-bottom: 40px;
+    }
+
+    .how-work{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .work-title{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .work-title h2{
+        margin: 20px 0;
+    }
+
+    .work-list{
+        flex-direction: column;
+    }
+
+    .work-list-content{
+        margin-bottom: 30px;
+    }
+
+
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1200px){
@@ -90,4 +130,39 @@
     .personal-desc-container{
         width: 90%;
     }
+
+    .advantages-container{
+        width: 90%;
+        height: 400px;
+    }
+
+    .benefits{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+
+    .how-work{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .work-title{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .work-title h2{
+        margin: 20px 0;
+    }
+
+    .work-list{
+        flex-direction: column;
+    }
+
+    .work-list-content{
+        margin-bottom: 30px;
+    }
+
+
 }

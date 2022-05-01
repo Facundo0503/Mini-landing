@@ -189,3 +189,98 @@ body{
     width: 80%;
     text-align: center;
 }
+
+.advantages-container{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.418);
+    margin: 100px auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.advantages-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages-title h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.advantages-title p{
+    color: grey;
+}
+
+.advantages-container i{
+    transform: scale(2.5);
+    color: rgb(83, 83, 83);
+    margin-bottom: 40px;
+}
+
+.benefits{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits p{
+    margin-top: 10px;
+}
+
+.how-work{
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.418);
+    margin: 100px auto;
+    width: 70%;
+}
+
+.work-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.work-title p{
+    margin-top: 10px;
+    color: grey;
+}
+
+.work-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    gap: 20px;
+}
+
+.work-list-content{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.work-list h3{
+    background-color: grey;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
