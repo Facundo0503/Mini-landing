@@ -104,6 +104,30 @@
         margin-bottom: 30px;
     }
 
+    .clients-container{
+        height: auto;
+    }
+
+    .clients-content{
+        flex-direction: column;
+    }
+
+    .clients-content img{
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    footer{
+        height: 800px;
+        width: 100%;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+
 
 }
 
@@ -164,5 +188,21 @@
         margin-bottom: 30px;
     }
 
+    .clients-container{
+        height: auto;
+    }
 
+    .clients-content{
+        flex-direction: column;
+    }
+
+    .clients-content img{
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .footer-list{
+        gap: 40px;
+        width: 100%;
+    }
 }
